@@ -35,7 +35,7 @@ class player():
     def playerAttack(self, enemy):
         enemy.hp -= self.attackDamage
 
-        print(f"{self.player} attacked {enemy.enemyName} for {(self.attackDamage - enemy.defense)} damage.")
+        print(f"{self.playerName} attacked {enemy.enemyName} for {(self.attackDamage - enemy.defense)} damage.")
     def playerDefend(self, enemy):
         pass
     def heal(self, target):
